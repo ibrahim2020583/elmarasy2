@@ -1,0 +1,231 @@
+body {font-family: "Raleway", sans-serif;}
+.navbar {padding: 10px !important; border-radius: 0 !important; position: fixed; width: 100%; top: 0;z-index: 1;}
+.navbar-brand img {margin-top: -5px;}
+.navbar li a { font-weight: bold;color: white !important;  transition: ease-in 1s;padding-right: 60px;}
+.navbar li a:hover { color: #e7434e !important;  border-color: #e7434e !important;}
+.signup{border: 1px solid white; border-radius: 15%; padding: 10px 15px !important;margin-top: 5px}
+ .section1{background-image: url("../images/banner.jpg");background-size: cover;background-position: center;background-repeat: no-repeat; padding: 100px 0;}
+   .section1-text{text-align: center; width: 50%; margin: auto;}
+   .section1-text h2{color: white; font-size: 50px; font-weight: bold;letter-spacing: 2px; }
+   .section1-text p{color: white; font-size: 21px; letter-spacing: 1px;}
+    .section1-search {overflow: hidden; margin-top:65px ;text-transform: uppercase;}
+   .section1-search input{ width: 70%; float: left;font-size: 14px; color:gray; padding: 15px;border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; outline: #e7434e; border-width: 0;}
+   .section1-search button{ width: 30%;float: left; background-color:#e7434e ;text-transform: uppercase;
+    height:50px; outline:none!important; margin-left:-1px; border-top-right-radius: 5%; border-bottom-right-radius:5%;}
+    .section1-search button:hover{ color:#fff; background: transparent;border: 1px solid #fff;}
+      .section1-search button:focus{color:#fff;  background: transparent; border: 1px solid #fff;}
+      .statictics{ text-align: center; padding: 20px; background-color: #fff;  margin-top: -50px; box-shadow: 0 8px 6px -6px #ccc;}
+      .statictics div{ border-left: 1px solid #a1a1a1;}
+      .statictics div:first-child{ border-width: 0;}
+        .statictics div h4{ font-size: 30px; font-weight: bold;}
+      .statictics div p{ font-size: 16px;color: gray;}
+    .mr-30{margin-top: 30px !important;}
+    .none{ display: none;}
+     .offers{ position: relative;}
+     .offers span{ position: absolute;color: white;background-color: #e7434e; transition-duration: 1s;padding: 12px; left: 20px;
+    top: 10px;border-radius: 5px;height: 45px;}
+   .offers span:hover{color: #e7434e;border: 1px solid #e7434e;background-color: transparent; }
+   .offers p{position: absolute; color: white; padding: 12px; left: 20px; bottom:0px; font-size: 20px;}
+   .offers h4{position: absolute; color: white; padding: 12px; left: 20px; bottom: 30px; font-size: 30px;}
+   .explore{outline: 0;border: 1px solid #bdbdbd;padding: 20px 40px;color: #343434;font-weight: 700;font-size: 14px; background-color: #fff;
+     border-radius: 5px; margin-top:40px; transition: ease-out 1s;}
+     .explore:hover{color: #fff; transition: all 0.5s; background-color: #343434;border: 1px solid #fff;}
+     .section2{background-image: url("../images/banner1.jpg");background-size:cover;background-position:center;background-repeat:no-repeat ; width: 100%;}
+     .section2 h2 {font-size: 54px; line-height: 65px; letter-spacing: 2px; color: white; padding-top: 70px;}
+     .section2 p{line-height: 35px; letter-spacing: 1px; font-size: 24px; color: white; padding-top: 30px;}
+     .section2 button{margin: 70px 70px !important; background-color: #e7434e; border: 1px solid #e7434e; color:white ; padding: 20px 40px; font-size: 14px;
+    border-radius: 5px; font-weight: bold;}
+     .section2 button:hover{color: #343434; transition: all 0.5s;  background-color: #fff;border:1px solid #343434;}
+     .section3{margin-top: 30px;}
+.section3 h2{font-weight: 400;font-size: 30px;  color: #343434; line-height: 28px;}
+.section3 p{font-size: 14px;font-weight: 400; line-height: 22px; color: #717171;}
+.offers2{ position: relative;}
+     .offers2 p{ position: absolute;color: white;background-color: #e7434e; transition-duration: 1s;padding: 12px; left: 20px;
+    top: 10px;border-radius: 5px;height: 45px;}
+   .offers2 p:hover{color: #e7434e;border: 1px solid #e7434e;background-color: transparent; }
+   .offers2 span{position: absolute; color: white; padding: 12px; left: 20px; bottom:0px; font-size: 20px;}
+   .offers2 span .span2{position: absolute; color: white; padding: 12px; left: 184px !important; bottom:0px; font-size: 20px;}
+   .offers2 h4{position: absolute; color: white; padding: 12px; left: 20px; bottom: 30px; font-size: 30px;}
+   .section4{background: #404040 url("../images/line.png"); background-repeat: repeat-x; width: 100%; padding: 50px 0; margin-top: 30px;}
+   .section4 .footer1 h3{font-weight: 700; font-size: 14px; color: #fff;  padding-bottom: 8px;}
+   
+   .section4 .footer1 li{list-style-type: none; color:white;font-size: 13px; padding: 15px 0 0;}
+   .section4 .footer1 li:hover{color: #e7434e; transition: all 0.5s;}
+   .section4 .footer1 input{width: 70%; float: left;font-size: 14px; color:gray; padding: 15px;border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; outline: #e7434e; border-width: 0;}
+    .section4 .footer1 button{ width: 30%;float: left; background-color:#e7434e ;text-transform: uppercase;
+      height:50px; outline:none!important; margin-left:-1px; border-top-right-radius: 5%; border-bottom-right-radius:5%;}
+      .section4 .footer1 button:hover { color:#fff; background: transparent;border: 1px solid #fff;}
+      .section4 .footer1 button:focus{color:#fff;  background: transparent; border: 1px solid #fff;}
+      .section4 .myname{color:white; font-weight: bold; ;}
+      .section4 .footersocial  i{ height: 45px;color: #ffffff; text-align:center;line-height:42px; margin-right: 20px;
+      cursor:pointer;  font-size: 22px;  border-radius: 50%; background-color: #717171; border:1px solid #717171; width: 45px; margin-top: 30px;}
+      .section4 .footersocial i:hover { background-color: white; color: red; transition: 1000;}
+     
+      
+     
+     
+     
+     
+    
+    
+     
+    
+  
+  
+   
+   
+   
+  
+   
+   
+   
+  
+   
+  
+ 
+ 
+ 
+ 
+  
+
+ 
+
+     
+    
+     
+     
+     
+     
+     
+     
+     
+     
+      
+    
+    
+    
+    
+   
+   
+   
+     
+    
+    
+    
+     
+      
+      
+     
+      
+     
+      
+      
+      
+    
+    
+    
+      
+      
+      
+   
+     
+         
+         
+      
+      
+      
+         
+          
+      
+       
+      
+     
+       
+       
+       
+      
+       
+      
+      
+    
+    
+   
+      
+    
+     
+    
+   
+    
+    
+   
+   
+    
+   
+  
+   
+   
+   
+  
+   
+  
+  
+  
+   
+    
+  
+    
+  
+
+  
+ 
+ 
+ 
+ 
+  
+
+
+ 
+  
+ 
+  
+
+
+  
+ 
+ 
+
+
+
+ 
+  
+   
+
+
+  
+  
+
+
+
+
+ 
+
+
+
+ 
+  
+ 
+ 
+
+
+  
+ 
+
+
+
+ 
+  
+ 
+  
+  
